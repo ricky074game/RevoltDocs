@@ -5,35 +5,47 @@ theme:
   name: material
   palette:
     - scheme: slate
-      primary: deep purple
+      primary: black
       accent: purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
     - scheme: default
-      primary: deep purple
+      primary: white
       accent: purple
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
     - navigation.top
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.path
+    - navigation.prune
     - search.highlight
     - search.share
   icon:
     repo: fontawesome/brands/github
 
-repo_url: https://github.com/ricky074game/RevoltDocs
-repo_name: ricky074game/RevoltDocs
+repo_url: https://github.com/ricky074game/RevoltUltimate
+repo_name: ricky074game/RevoltUltimate
 
 nav:
   - Home: index.md
   - Setup: setup.md
-  - Achievements: achievements.md
+  - Achievements:
+      - Getting Started:  achievements/achievements.md
+      - Steam:
+          - SteamScrape: achievements/Steam/SteamScrape.md
+          - SteamAPI: achievements/Steam/SteamAPI.md
+      - Pirated Steam:
+          - Inside Game Folder: achievements/Steam/InsideGameFolder.md
+          - Outside Game Folder: achievements/Steam/OutsideGameFolder.md
+      - GOG:
+          - CometOffline: achievements/GOG/CometOffline.md
+          - Comet Normal: achievements/GOG/Comet.md
+          - GOG Scrape: achievements/GOG/GOGScrape.md
   - FAQ: faq.md
   - Development: development.md
 
@@ -52,3 +64,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - styles.css

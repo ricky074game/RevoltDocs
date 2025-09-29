@@ -83,6 +83,6 @@ theme:
 
 ## Next Steps
 
-- Check out the [Achievements](achievements.md) page to track your progress
+- Check out the [Achievements](achievements/achievements.md) page to track your progress
 - Read the [FAQ](faq.md) for common questions
 - Explore [Development](development.md) to contribute
