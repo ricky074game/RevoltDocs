@@ -1,37 +1,33 @@
-# Welcome to the Revolt Ultimate Documentation
+﻿---
+icon: material/home
+---
+
+# Welcome to the RevoltUltimate Documentation
 
 ---
 
 ## Quick Navigation
 
-=== "Setup"
-    - :material-cog-outline: **Setup**
-    
-      Get started with setting up your environment in just a few minutes.
-      
-      [:octicons-arrow-right-24: Setup Guide](setup.md)
+<div class="grid cards" markdown>
 
-=== "Post Installation"
-    - :material-wrench-outline: **Post Installation**
-    
-      Customize and tweak your installation to your liking.
-      
-      [:octicons-arrow-right-24: Achievements](achievements.md)
+- :material-wrench-outline: **Post Installation**
 
-=== "FAQ"
-    - :material-frequently-asked-questions: **Frequently Asked Questions**
-    
-      Get the answer to any frequently asked questions you might have.
-      
-      [:octicons-arrow-right-24: FAQ](faq.md)
+    ---
 
-=== "Development"
-    - :material-code-braces: **Development**
-    
-      Learn how you can contribute and do so effectively.
-      
-      [:octicons-arrow-right-24: Development Guide](development.md)
+    Customize and tweak your installation to your liking.
 
+    [:octicons-arrow-right-24: Achievements](achievements/achievements.md)      
+
+- :material-code-braces: **Development**
+
+    ---
+
+    Learn how you can contribute and do so effectively.
+
+    [:octicons-arrow-right-24: Development Guide](development/development.md)   
+
+</div>
 
 ---
+
 Welcome to the RevoltUltimate documentation!

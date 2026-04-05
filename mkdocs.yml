@@ -18,6 +18,7 @@ theme:
         name: Switch to dark mode
   features:
     - navigation.tabs
+    - navigation.expand
     - navigation.top
     - navigation.instant
     - navigation.instant.prefetch
@@ -33,7 +34,6 @@ repo_name: ricky074game/RevoltUltimate
 
 nav:
   - Home: index.md
-  - Setup: setup.md
   - Achievements:
       - Getting Started:  achievements/achievements.md
       - Steam:
@@ -41,13 +41,17 @@ nav:
           - SteamAPI: achievements/Steam/SteamAPI.md
       - Pirated Steam:
           - Inside Game Folder: achievements/Steam/InsideGameFolder.md
-          - Outside Game Folder: achievements/Steam/OutsideGameFolder.md
+          - Outside Game Folder: achievements/Steam/OutsideGameFolder.md        
       - GOG:
           - CometOffline: achievements/GOG/CometOffline.md
-          - Comet Normal: achievements/GOG/Comet.md
           - GOG Scrape: achievements/GOG/GOGScrape.md
-  - FAQ: faq.md
-  - Development: development.md
+  - Contributing:
+      - How to Contribute: development/development.md
+      - RevoltUltimate: development/RevoltUltimate.md
+      - Revolt Achievements Library:
+          - Revolt Achievement: development/RevoltAchievement/RevoltAchievement.md
+          - Revolt GOG: development/RevoltAchievement/RevoltGOG.md
+      - Create your own toast and submit it: development/toasts.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -64,6 +68,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
 
 extra_css:
   - styles.css
